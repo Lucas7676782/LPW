@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Water+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Pirata One', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #d4af37;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.1em;
+}
+
+.capitulos {
+    position: relative;
+    background-color: #fdf5e6;
+    background-image: radial-gradient(ellipse at 15% 10%, rgba(139, 90, 43, 0.18) 0%, transparent 50%),
+        radial-gradient(ellipse at 85% 85%, rgba(101, 67, 33, 0.15) 0%, transparent 45%),
+        radial-gradient(ellipse at 65% 30%, rgba(180, 140, 60, 0.10) 0%, transparent 35%),
+        radial-gradient(ellipse at 10% 75%, rgba(120, 80, 30, 0.12) 0%, transparent 40%);
+
+    font-family: 'Pirata One', cursive;
+    max-width: 50em;
+    width: 90%;
+    padding: 2.5em 3em;
+        box-shadow:
+        0 0.5rem 1.5em  rgba(0,   0,   0,   0.6),
+        inset 0 0 50px  rgba(101, 67,  33,  0.20),
+        inset 0 0 15px  rgba(139, 90,  43,  0.12);
+    border: 0.5rem solid #b5a481;
+    border-radius: 3px 6px 4px 5px;
+    margin-bottom: 5vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.capitulos h2, h3{
+    font-family: 'Water Brush', cursive;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #5d4037;
+}
+
+.capitulos p {
+    font-size: 1rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-paginas a {
+    color: #855148;
+    text-decoration: none;
+    font-size: 1rem;
+    font-style: italic;
+    display: inline-block;
+    transition: color 0.2s, transform 0.2;
+}
+
+.card-paginas a:hover {
+    color: #8b0000;
+    transform: translateX(0.3rem);
+    text-decoration: underline;
+}
